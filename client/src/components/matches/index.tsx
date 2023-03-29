@@ -19,7 +19,7 @@ export default function Matches() {
     <>
       <ConferenceSwitch />
       <div className="mt-3">
-        <InteractionInfo message="Click on a match for more details" />
+        <InteractionInfo message="Click on an ended match for more details" />
       </div>
       {matchesData
         .filter((match) => match.conference === conference)

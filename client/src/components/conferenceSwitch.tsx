@@ -43,12 +43,12 @@ export default function ConferenceSwitch() {
       >
         <a href="#tables-and-stats">Conference 2</a>
       </button>
-      <button
+      {/* <button
         className={conference === 3 ? "ml-auto" : "ml-auto text-gray-200"}
         onClick={() => dispatch(centralStoreActions.setConference(3))}
       >
         <a href="#playoffs">Play-offs</a>
-      </button>
+      </button> */}
     </div>
   );
 }

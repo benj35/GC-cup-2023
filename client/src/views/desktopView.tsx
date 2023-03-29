@@ -2,7 +2,7 @@ import Header from "../components/header";
 import Matches from "../components/matches";
 import Stats from "../components/stats";
 import LeagueTable from "../components/table/leagueTable";
-import PlayOffs from "../components/table/playoffs";
+// import PlayOffs from "../components/table/playoffs";
 
 export default function DesktopView() {
   return (
@@ -13,12 +13,12 @@ export default function DesktopView() {
           <Matches />
         </div>
         <div className="bg-slate-900 flex flex-col border-x-[1px] border-x-slate-600 overflow-auto scroll-smooth">
-          <div
+          {/* <div
             id="playoffs"
             className="basis-full shrink-0 flex items-center border-b-[1px] border-b-slate-600"
           >
             <PlayOffs />
-          </div>
+          </div> */}
           <div
             id="tables-and-stats"
             className="shrink-0 flex bg-slate-800 gap-4"
