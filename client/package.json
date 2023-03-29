@@ -1,6 +1,7 @@
 {
   "name": "client",
   "version": "0.1.0",
+  "homepage": "https://gc-cup2023.netlify.app/",
   "private": true,
   "dependencies": {
     "@babel/core": ">=7.0.0-0 <8.0.0",
