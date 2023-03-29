@@ -46,9 +46,6 @@ export default function PlayerStatsCard({
                     <p className="py-2">{nickname || name}</p>
                     <div className="ml-auto">
                       <p className="mr-2 text-base inline-block">{teamCode}</p>
-                      <p className="mr-2 text-base font-mono inline-block">
-                        {position}
-                      </p>
                     </div>
                     <p className="w-12 self-stretch flex justify-center items-center bg-gray-900 text-gray-100">
                       {array[index][sortBy]}

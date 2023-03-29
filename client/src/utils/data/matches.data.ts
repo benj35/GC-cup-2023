@@ -30,14 +30,14 @@ export const matches: Match[] = [
    * Conference 1
    */
   {
-    state: "",
+    state: "sc",
     conference: 1,
     matchID: Math.random().toString(36).slice(2),
     teams: {
       team1: 101,
       team2: 102,
     },
-    schedule: new Date("May 18, 2022 14:00").toString(),
+    schedule: new Date("March 29, 2023 14:00").toString(),
     score: {
       team1: 2,
       team2: 15,
@@ -180,6 +180,10 @@ export const matches: Match[] = [
         },
         {
           name: "Biniyam",
+          event: "ps",
+        },
+        {
+          name: "Abel",
           event: "pm",
         },
         {
