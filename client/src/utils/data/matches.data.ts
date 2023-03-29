@@ -30,7 +30,7 @@ export const matches: Match[] = [
    * Conference 1
    */
   {
-    state: "ft",
+    state: "",
     conference: 1,
     matchID: Math.random().toString(36).slice(2),
     teams: {
@@ -1097,225 +1097,225 @@ export const matches: Match[] = [
   /**
    * Play-offs
    */
-  {
-    state: "ft",
-    playOffStage: "QF",
-    conference: 3,
-    matchID: Math.random().toString(36).slice(2),
-    schedule: new Date("June 8, 2022 14:00").toString(),
-    teams: {
-      team1: 202,
-      team2: 103,
-    },
-    score: {
-      team1: 0,
-      team2: 5,
-    },
-    events: {
-      team1: [],
-      team2: [
-        {
-          name: "Dawit",
-          event: "goal",
-          assist: "Biruk",
-        },
-        {
-          name: "Dawit",
-          event: "goal",
-          assist: "Biniyam",
-        },
-        {
-          name: "Mulugeta",
-          event: "goal",
-          assist: "Girmachew",
-        },
-        {
-          name: "Bultum",
-          event: "goal",
-          assist: "Mulugeta",
-        },
-        {
-          name: "Mikiyas",
-          event: "og",
-        },
-      ],
-    },
-  },
-  {
-    state: "ft",
-    playOffStage: "QF",
-    conference: 3,
-    matchID: Math.random().toString(36).slice(2),
-    schedule: new Date("June 16, 2022 16:00").toString(),
-    teams: {
-      team1: 102,
-      team2: 203,
-    },
-    score: {
-      team1: 7,
-      team2: 2,
-    },
-    events: {
-      team1: [
-        {
-          name: "Robel",
-          event: "goal",
-          assist: "Nati G.",
-        },
-        {
-          name: "Ermiyas",
-          event: "goal",
-          assist: "Robel",
-        },
-        {
-          name: "Nati G.",
-          event: "goal",
-          assist: "Robel",
-        },
-        {
-          name: "Nati M.",
-          event: "goal",
-          assist: "Nati G.",
-        },
-        {
-          name: "Robel",
-          event: "goal",
-          assist: "Nati G.",
-        },
-        {
-          name: "Nati G.",
-          event: "goal",
-          assist: "Robel",
-        },
-        {
-          name: "Robel",
-          event: "goal",
-        },
-      ],
-      team2: [
-        {
-          name: "Abraham",
-          event: "goal",
-          assist: "Bereket",
-        },
-        {
-          name: "Abraham",
-          event: "goal",
-          assist: "Abebaw",
-        },
-      ],
-    },
-  },
-  {
-    state: "ft",
-    playOffStage: "QF",
-    conference: 3,
-    matchID: Math.random().toString(36).slice(2),
-    schedule: new Date("June 11, 2022 16:00").toString(),
-    teams: {
-      team1: 201,
-      team2: 104,
-    },
-    score: {
-      team1: 6,
-      team2: 3,
-    },
-    events: {
-      team1: [
-        {
-          name: "Ermisha",
-          event: "goal",
-          assist: "Kena",
-        },
-        {
-          name: "Kena",
-          event: "goal",
-          assist: "Nati",
-        },
-        {
-          name: "Ermisha",
-          event: "ps",
-        },
-        {
-          name: "Ermisha",
-          event: "goal",
-        },
-        {
-          name: "Nati",
-          event: "goal",
-        },
-        {
-          name: "Abel",
-          event: "goal",
-          assist: "Ermisha",
-        },
-      ],
-      team2: [
-        {
-          name: "Chacha",
-          event: "goal",
-          assist: "Kira",
-        },
-        {
-          name: "Chacha",
-          event: "goal",
-          assist: "Kira",
-        },
-        {
-          name: "Chacha",
-          event: "goal",
-          assist: "Kira",
-        },
-      ],
-    },
-  },
-  {
-    state: "ft",
-    playOffStage: "QF",
-    conference: 3,
-    matchID: Math.random().toString(36).slice(2),
-    schedule: new Date("June 13, 2022 16:00").toString(),
-    teams: {
-      team1: 204,
-      team2: 105,
-    },
-    score: {
-      team1: 3,
-      team2: 1,
-    },
-    events: {
-      team1: [
-        {
-          name: "Zekarias",
-          event: "goal",
-        },
-        {
-          name: "Tekle",
-          event: "goal",
-          assist: "Beken",
-        },
-        {
-          name: "Beken",
-          event: "goal",
-          assist: "Tekle",
-        },
-      ],
-      team2: [
-        {
-          name: "Nati B.",
-          event: "goal",
-        },
-        {
-          name: "Nati A.",
-          event: "pm",
-        },
-        {
-          name: "Yididiya",
-          event: "pm",
-        },
-      ],
-    },
-  },
+  // {
+  //   state: "ft",
+  //   playOffStage: "QF",
+  //   conference: 3,
+  //   matchID: Math.random().toString(36).slice(2),
+  //   schedule: new Date("June 8, 2022 14:00").toString(),
+  //   teams: {
+  //     team1: 202,
+  //     team2: 103,
+  //   },
+  //   score: {
+  //     team1: 0,
+  //     team2: 5,
+  //   },
+  //   events: {
+  //     team1: [],
+  //     team2: [
+  //       {
+  //         name: "Dawit",
+  //         event: "goal",
+  //         assist: "Biruk",
+  //       },
+  //       {
+  //         name: "Dawit",
+  //         event: "goal",
+  //         assist: "Biniyam",
+  //       },
+  //       {
+  //         name: "Mulugeta",
+  //         event: "goal",
+  //         assist: "Girmachew",
+  //       },
+  //       {
+  //         name: "Bultum",
+  //         event: "goal",
+  //         assist: "Mulugeta",
+  //       },
+  //       {
+  //         name: "Mikiyas",
+  //         event: "og",
+  //       },
+  //     ],
+  //   },
+  // },
+  // {
+  //   state: "ft",
+  //   playOffStage: "QF",
+  //   conference: 3,
+  //   matchID: Math.random().toString(36).slice(2),
+  //   schedule: new Date("June 16, 2022 16:00").toString(),
+  //   teams: {
+  //     team1: 102,
+  //     team2: 203,
+  //   },
+  //   score: {
+  //     team1: 7,
+  //     team2: 2,
+  //   },
+  //   events: {
+  //     team1: [
+  //       {
+  //         name: "Robel",
+  //         event: "goal",
+  //         assist: "Nati G.",
+  //       },
+  //       {
+  //         name: "Ermiyas",
+  //         event: "goal",
+  //         assist: "Robel",
+  //       },
+  //       {
+  //         name: "Nati G.",
+  //         event: "goal",
+  //         assist: "Robel",
+  //       },
+  //       {
+  //         name: "Nati M.",
+  //         event: "goal",
+  //         assist: "Nati G.",
+  //       },
+  //       {
+  //         name: "Robel",
+  //         event: "goal",
+  //         assist: "Nati G.",
+  //       },
+  //       {
+  //         name: "Nati G.",
+  //         event: "goal",
+  //         assist: "Robel",
+  //       },
+  //       {
+  //         name: "Robel",
+  //         event: "goal",
+  //       },
+  //     ],
+  //     team2: [
+  //       {
+  //         name: "Abraham",
+  //         event: "goal",
+  //         assist: "Bereket",
+  //       },
+  //       {
+  //         name: "Abraham",
+  //         event: "goal",
+  //         assist: "Abebaw",
+  //       },
+  //     ],
+  //   },
+  // },
+  // {
+  //   state: "ft",
+  //   playOffStage: "QF",
+  //   conference: 3,
+  //   matchID: Math.random().toString(36).slice(2),
+  //   schedule: new Date("June 11, 2022 16:00").toString(),
+  //   teams: {
+  //     team1: 201,
+  //     team2: 104,
+  //   },
+  //   score: {
+  //     team1: 6,
+  //     team2: 3,
+  //   },
+  //   events: {
+  //     team1: [
+  //       {
+  //         name: "Ermisha",
+  //         event: "goal",
+  //         assist: "Kena",
+  //       },
+  //       {
+  //         name: "Kena",
+  //         event: "goal",
+  //         assist: "Nati",
+  //       },
+  //       {
+  //         name: "Ermisha",
+  //         event: "ps",
+  //       },
+  //       {
+  //         name: "Ermisha",
+  //         event: "goal",
+  //       },
+  //       {
+  //         name: "Nati",
+  //         event: "goal",
+  //       },
+  //       {
+  //         name: "Abel",
+  //         event: "goal",
+  //         assist: "Ermisha",
+  //       },
+  //     ],
+  //     team2: [
+  //       {
+  //         name: "Chacha",
+  //         event: "goal",
+  //         assist: "Kira",
+  //       },
+  //       {
+  //         name: "Chacha",
+  //         event: "goal",
+  //         assist: "Kira",
+  //       },
+  //       {
+  //         name: "Chacha",
+  //         event: "goal",
+  //         assist: "Kira",
+  //       },
+  //     ],
+  //   },
+  // },
+  // {
+  //   state: "ft",
+  //   playOffStage: "QF",
+  //   conference: 3,
+  //   matchID: Math.random().toString(36).slice(2),
+  //   schedule: new Date("June 13, 2022 16:00").toString(),
+  //   teams: {
+  //     team1: 204,
+  //     team2: 105,
+  //   },
+  //   score: {
+  //     team1: 3,
+  //     team2: 1,
+  //   },
+  //   events: {
+  //     team1: [
+  //       {
+  //         name: "Zekarias",
+  //         event: "goal",
+  //       },
+  //       {
+  //         name: "Tekle",
+  //         event: "goal",
+  //         assist: "Beken",
+  //       },
+  //       {
+  //         name: "Beken",
+  //         event: "goal",
+  //         assist: "Tekle",
+  //       },
+  //     ],
+  //     team2: [
+  //       {
+  //         name: "Nati B.",
+  //         event: "goal",
+  //       },
+  //       {
+  //         name: "Nati A.",
+  //         event: "pm",
+  //       },
+  //       {
+  //         name: "Yididiya",
+  //         event: "pm",
+  //       },
+  //     ],
+  //   },
+  // },
   {
     state: "ft",
     playOffStage: "SF",

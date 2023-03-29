@@ -23,7 +23,7 @@ export const teams: Team[] = [
   {
     conference: 1,
     inPlayoffs: false,
-    teamID: 201,
+    teamID: 101,
     teamName: "Biomed",
     teamCode: "BIO",
     previousRank: 0,
@@ -40,7 +40,7 @@ export const teams: Team[] = [
   {
     conference: 1,
     inPlayoffs: false,
-    teamID: 103,
+    teamID: 102,
     teamName: "Electrical B",
     teamCode: "ELB",
     previousRank: 0,
@@ -57,7 +57,7 @@ export const teams: Team[] = [
   {
     conference: 1,
     inPlayoffs: false,
-    teamID: 105,
+    teamID: 103,
     teamName: "Software",
     teamCode: "SFT",
     previousRank: 0,
@@ -74,7 +74,7 @@ export const teams: Team[] = [
   {
     conference: 1,
     inPlayoffs: false,
-    teamID: 101,
+    teamID: 104,
     teamName: "Extension",
     teamCode: "EXT",
     previousRank: 0,
@@ -95,9 +95,9 @@ export const teams: Team[] = [
   {
     conference: 2,
     inPlayoffs: false,
-    teamID: 202,
+    teamID: 201,
     teamName: "Civil",
-    teamCode: "CV2",
+    teamCode: "CVL",
     previousRank: 0,
     played: 0,
     points: 0,
@@ -112,7 +112,7 @@ export const teams: Team[] = [
   {
     conference: 2,
     inPlayoffs: false,
-    teamID: 203,
+    teamID: 202,
     teamName: "Electrical A",
     teamCode: "ELA",
     previousRank: 0,
@@ -129,7 +129,7 @@ export const teams: Team[] = [
   {
     conference: 2,
     inPlayoffs: false,
-    teamID: 104,
+    teamID: 203,
     teamName: "Mechanical",
     teamCode: "MEC",
     previousRank: 0,
@@ -140,13 +140,13 @@ export const teams: Team[] = [
     losses: 0,
     goalsFor: 0,
     goalsAgainst: 0,
-    lastFive: "LLWW",
+    lastFive: "",
     cleansheets: 0,
   },
   {
     conference: 2,
     inPlayoffs: false,
-    teamID: 101,
+    teamID: 204,
     teamName: "Chemical",
     teamCode: "CHE",
     previousRank: 0,
