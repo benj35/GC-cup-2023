@@ -22,11 +22,15 @@ export default function ConferenceSwitch() {
       case 2:
         conferenceSwitch?.style.setProperty("--start", "122px");
         break;
-      case 3:
-        conferenceSwitch?.style.setProperty("--start", "calc(100% - 92px)");
-        break;
+      // case 3:
+      //   conferenceSwitch?.style.setProperty("--start", "calc(100% - 92px)");
+      //   break;
+      default:
+        dispatch(centralStoreActions.setConference(1));
     }
-  }, [conference]);
+  },
+    // [conference]
+  );
 
   return (
     <div className="conference-switch flex py-2 relative mt-3 max-w-md mx-auto">
