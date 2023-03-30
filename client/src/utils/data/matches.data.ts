@@ -34,6 +34,7 @@ export const matches: Match[] = [
     conference: 1,
     matchID: Math.random().toString(36).slice(2),
     teams: {
+      // Biomed vs Software
       team1: 101,
       team2: 103,
     },
@@ -82,6 +83,7 @@ export const matches: Match[] = [
     conference: 1,
     matchID: Math.random().toString(36).slice(2),
     teams: {
+      // Electrical-B vs Extension
       team1: 102,
       team2: 104,
     },
@@ -178,16 +180,65 @@ export const matches: Match[] = [
   /**
    * Conference 2 =========================================================================================================================
    */
-  
+
   {
     state: "sc",
     conference: 2,
     matchID: Math.random().toString(36).slice(2),
     teams: {
+      // Electrical-A vs Mechanical
       team1: 202,
       team2: 203,
     },
     schedule: new Date("April 04, 2023 16:00").toString(),
+    score: {
+      team1: 0,
+      team2: 0,
+    },
+    events: {
+      team1: [
+        {
+          name: "Ermisha",
+          event: "goal",
+          assist: "Kena",
+        },
+        {
+          name: "Ermisha",
+          event: "ps",
+        },
+      ],
+      team2: [
+        {
+          name: "Tekle",
+          event: "ps",
+        },
+        {
+          name: "Beken",
+          event: "goal",
+          assist: "Zekarias",
+        },
+        {
+          name: "Beken",
+          event: "goal",
+        },
+        {
+          name: "Kevin",
+          event: "goal",
+          assist: "Tekle",
+        },
+      ],
+    },
+  },
+  {
+    state: "sc",
+    conference: 2,
+    matchID: Math.random().toString(36).slice(2),
+    teams: {
+      // Civil vs Chemical
+      team1: 201,
+      team2: 204,
+    },
+    schedule: new Date("April 05, 2023 16:00").toString(),
     score: {
       team1: 0,
       team2: 0,
