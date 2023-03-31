@@ -74,6 +74,7 @@ export const players: Player[] = [
   {
     playerID: 7,
     teamCode: "SFT",
+    nickname: "Abenezer Fk.",
     name: "Abenezer",
     fname: "Fekadu",
     position: "MD",
@@ -83,6 +84,7 @@ export const players: Player[] = [
   {
     playerID: 8,
     teamCode: "SFT",
+    nickname: "Amanuel D.",
     name: "Amanuel",
     fname: "Debebe",
     position: "MD",
@@ -101,8 +103,9 @@ export const players: Player[] = [
   {
     playerID: 10,
     teamCode: "SFT",
-    name: "Murad",
-    fname: "Abdella",
+    nickname: "Wasse",
+    name: "Wassihun",
+    fname: "Dangura",
     position: "MD",
     goals: 0,
     assists: 0,
@@ -497,6 +500,7 @@ export const players: Player[] = [
   {
     playerID: 45,
     teamCode: "CHE",
+    nickname: "Amanuel A.",
     name: "Amanuel",
     fname: "Atsbeha",
     position: "DF",
@@ -507,6 +511,7 @@ export const players: Player[] = [
   {
     playerID: 46,
     teamCode: "CHE",
+    nickname: "Abdulaziz Te.",
     name: "Abdulaziz",
     fname: "Temam",
     position: "DF",
@@ -543,6 +548,7 @@ export const players: Player[] = [
   {
     playerID: 50,
     teamCode: "CHE",
+    nickname: "Bereket T.",
     name: "Bereket",
     fname: "Tefera",
     position: "MD",
@@ -561,6 +567,7 @@ export const players: Player[] = [
   {
     playerID: 52,
     teamCode: "CHE",
+    nickname: "Abenezer Ay.",
     name: "Abenezer",
     fname: "Ayele",
     position: "MD",
@@ -570,6 +577,7 @@ export const players: Player[] = [
   {
     playerID: 53,
     teamCode: "CHE",
+    nickname: "Amanuel T.",
     name: "Amanuel",
     fname: "Tesfaye",
     position: "MD",
@@ -638,6 +646,7 @@ export const players: Player[] = [
   {
     playerID: 60,
     teamCode: "ELA",
+    nickname: "Nathnael Me.",
     name: "Nathnael",
     fname: "Meshesha",
     position: "DF",
@@ -647,6 +656,7 @@ export const players: Player[] = [
   {
     playerID: 61,
     teamCode: "ELA",
+    nickname: "Nathnael Sol.",
     name: "Nathnael",
     fname: "Solomon",
     position: "DF",
@@ -674,6 +684,7 @@ export const players: Player[] = [
   {
     playerID: 64,
     teamCode: "ELA",
+    nickname: "Bereket A.",
     name: "Bereket",
     fname: "Abate",
     position: "MD",
@@ -683,6 +694,7 @@ export const players: Player[] = [
   {
     playerID: 65,
     teamCode: "ELA",
+    nickname: "Kidus Y",
     name: "Kidus",
     fname: "Yenew",
     position: "MD",
@@ -692,6 +704,7 @@ export const players: Player[] = [
   {
     playerID: 66,
     teamCode: "ELA",
+    nickname: "Abenezer Yo.",
     name: "Abenezer",
     fname: "Yoseph",
     position: "MD",
@@ -724,6 +737,7 @@ export const players: Player[] = [
   {
     playerID: 69,
     teamCode: "CVL",
+    nickname: "Nathnael Ab.",
     name: "Nathnael",
     fname: "Abebe",
     position: "DF",
@@ -809,6 +823,7 @@ export const players: Player[] = [
   {
     playerID: 78,
     teamCode: "MEC",
+    nickname: "Nebiyu Ay.",
     name: "Nebiyu",
     fname: "Aydagnuhim",
     position: "GK",
@@ -836,6 +851,7 @@ export const players: Player[] = [
   {
     playerID: 81,
     teamCode: "MEC",
+    nickname: "Nathnael Te.",
     name: "Nathnael",
     fname: "Teshome",
     position: "DF",
@@ -845,6 +861,7 @@ export const players: Player[] = [
   {
     playerID: 82,
     teamCode: "MEC",
+    nickname: "Natinael Bi.",
     name: "Natinael",
     fname: "Birhanu",
     position: "DF",
@@ -863,6 +880,7 @@ export const players: Player[] = [
   {
     playerID: 84,
     teamCode: "MEC",
+    nickname: "Kidus H.",
     name: "Kidus",
     fname: "Haileab",
     position: "DF",
@@ -881,6 +899,7 @@ export const players: Player[] = [
   {
     playerID: 86,
     teamCode: "MEC",
+    nickname: "",
     name: "Biruk",
     fname: "Birhanu",
     position: "MD",
@@ -899,6 +918,7 @@ export const players: Player[] = [
   {
     playerID: 88,
     teamCode: "MEC",
+    nickname: "Nebiyu Ab.",
     name: "Nebiyu",
     fname: "Abdu",
     position: "MD",
