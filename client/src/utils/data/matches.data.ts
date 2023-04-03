@@ -38,7 +38,7 @@ export const matches: Match[] = [
       team1: 101,
       team2: 103,
     },
-    schedule: new Date("April 03, 2023 16:00").toString(),
+    schedule: new Date("April 04, 2023 10:00").toString(),
     score: {
       team1: 0,
       team2: 0,
@@ -79,7 +79,7 @@ export const matches: Match[] = [
     },
   },
   {
-    state: "sc",
+    state: "ft",
     conference: 1,
     matchID: Math.random().toString(36).slice(2),
     teams: {
@@ -89,89 +89,36 @@ export const matches: Match[] = [
     },
     schedule: new Date("April 01, 2023 16:00").toString(),
     score: {
-      team1: 0,
-      team2: 0,
+      team1: 3,
+      team2: 1,
     },
     events: {
       team1: [
         {
-          name: "Yared",
+          name: "Temesgen T.",
           event: "goal",
+          assist: "Amaniel D.",
         },
         {
-          name: "Yared",
+          name: "Nathnael B.",
           event: "goal",
-          assist: "Yisak",
+          assist: "Hiyaw",
         },
         {
-          name: "Yared",
+          name: "Temesgen T.",
           event: "goal",
-          assist: "Olana",
-        },
-        {
-          name: "Yared",
-          event: "goal",
-          assist: "Amani",
-        },
-        {
-          name: "Olana",
-          event: "goal",
+          assist: "Nathnael B.",
         },
       ],
       team2: [
         {
-          name: "Jano",
-          event: "goal",
-          assist: "Girmachew",
+          name: "Ephrem N.",
+          event: "pm",
         },
         {
-          name: "Biniyam",
+          name: "Estiphanos",
           event: "goal",
-          assist: "Jano",
-        },
-        {
-          name: "Dawit",
-          event: "goal",
-          assist: "Bultum",
-        },
-        {
-          name: "Jano",
-          event: "goal",
-          assist: "Bultum",
-        },
-        {
-          name: "Biniyam",
-          event: "goal",
-          assist: "Jano",
-        },
-        {
-          name: "Girmachew",
-          event: "goal",
-          assist: "Dawit",
-        },
-        {
-          name: "Girmachew",
-          event: "goal",
-          assist: "Dawit",
-        },
-        {
-          name: "Kassa",
-          event: "goal",
-          assist: "Dawit",
-        },
-        {
-          name: "Temu",
-          event: "og",
-        },
-        {
-          name: "Bultum",
-          event: "goal",
-          assist: "Girmachew",
-        },
-        {
-          name: "Bultum",
-          event: "goal",
-          assist: "Kassa",
+          assist: "Zekariyas",
         },
       ],
     },
