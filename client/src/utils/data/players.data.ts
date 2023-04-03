@@ -341,7 +341,7 @@ export const players: Player[] = [
     fname: "Dagne",
     position: "DF",
     goals: 0,
-    assists: 0,
+    assists: 1,
   },
   {
     playerID: 29,
@@ -350,7 +350,7 @@ export const players: Player[] = [
     fname: "Amanuel",
     position: "MD",
     goals: 0,
-    assists: 0,
+    assists: 1,
   },
   {
     playerID: 30,
@@ -376,17 +376,18 @@ export const players: Player[] = [
     name: "Temesgen",
     fname: "Tesfaye",
     position: "MD",
-    goals: 0,
+    goals: 2,
     assists: 0,
   },
   {
     playerID: 33,
     teamCode: "ELB",
+    nickname: "Natnael B.",
     name: "Natnael",
     fname: "Bekele",
     position: "MD",
-    goals: 0,
-    assists: 0,
+    goals: 1,
+    assists: 1,
   },
 
   /**
@@ -398,7 +399,7 @@ export const players: Player[] = [
     name: "Estifanos",
     fname: "Alemu",
     position: "GK",
-    goals: 0,
+    goals: 1,
     assists: 0,
     isCaptain: true,
   },
