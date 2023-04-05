@@ -18,7 +18,7 @@ export type Team = {
 
 export const teams: Team[] = [
   /**
-   * Conference 1
+   * Conference 1 ===========================================================================================
    */
   {
     conference: 1,
@@ -90,7 +90,7 @@ export const teams: Team[] = [
   },
 
   /**
-   * Conference 2
+   * Conference 2 ============================================================================================
    */
   {
     conference: 2,
@@ -115,16 +115,16 @@ export const teams: Team[] = [
     teamID: 202,
     teamName: "Electrical A",
     teamCode: "ELA",
-    previousRank: 0,
-    played: 0,
-    points: 0,
-    wins: 0,
+    previousRank: 2,
+    played: 1,
+    points: 3,
+    wins: 1,
     draws: 0,
     losses: 0,
-    goalsFor: 0,
+    goalsFor: 6,
     goalsAgainst: 0,
-    lastFive: "",
-    cleansheets: 0,
+    lastFive: "W",
+    cleansheets: 1,
   },
   {
     conference: 2,
@@ -132,15 +132,15 @@ export const teams: Team[] = [
     teamID: 203,
     teamName: "Mechanical",
     teamCode: "MEC",
-    previousRank: 0,
-    played: 0,
+    previousRank: 3,
+    played: 1,
     points: 0,
     wins: 0,
     draws: 0,
-    losses: 0,
+    losses: 1,
     goalsFor: 0,
-    goalsAgainst: 0,
-    lastFive: "",
+    goalsAgainst: 6,
+    lastFive: "L",
     cleansheets: 0,
   },
   {

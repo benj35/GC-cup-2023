@@ -111,7 +111,7 @@ export const matches: Match[] = [
    */
 
   {
-    state: "sc",
+    state: "ft",
     conference: 2,
     matchID: Math.random().toString(36).slice(2),
     teams: {
@@ -121,40 +121,44 @@ export const matches: Match[] = [
     },
     schedule: new Date("April 04, 2023 16:00").toString(),
     score: {
-      team1: 0,
+      team1: 6,
       team2: 0,
     },
     events: {
       team1: [
         {
-          name: "Ermisha",
+          name: "Biruk Me.",
           event: "goal",
-          assist: "Kena",
+          assist: "Abenezer Yo.",
         },
         {
-          name: "Ermisha",
-          event: "ps",
+          name: "Abenezer Yo.",
+          event: "goal",
+          assist: "Desta",
         },
+        {
+          name: "Biruk Me.",
+          event: "goal",
+          assist: "Abenezer Yo.",
+        },
+        {
+          name: "Mikiyas Te.",
+          event: "goal",
+          assist: "Biruk Me.",
+        },
+        {
+          name: "Abenezer Yo.",
+          event: "goal",
+          assist: "Kenbon",
+        },
+        {
+          name: "Abenezer Yo.",
+          event: "goal",
+          assist: "Nathnael So.",
+        },
+
       ],
       team2: [
-        {
-          name: "Tekle",
-          event: "ps",
-        },
-        {
-          name: "Beken",
-          event: "goal",
-          assist: "Zekarias",
-        },
-        {
-          name: "Beken",
-          event: "goal",
-        },
-        {
-          name: "Kevin",
-          event: "goal",
-          assist: "Tekle",
-        },
       ],
     },
   },
