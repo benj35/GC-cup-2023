@@ -30,7 +30,7 @@ export const matches: Match[] = [
    * Conference 1 ===========================================================================================================================
    */
   {
-    state: "sc",
+    state: "ft",
     conference: 1,
     matchID: Math.random().toString(36).slice(2),
     teams: {
@@ -40,40 +40,22 @@ export const matches: Match[] = [
     },
     schedule: new Date("April 04, 2023 12:00").toString(),
     score: {
-      team1: 0,
-      team2: 0,
+      team1: 1,
+      team2: 1,
     },
     events: {
       team1: [
         {
-          name: "Abeni",
-          event: "ps",
-        },
-        {
-          name: "Abeni",
+          name: "Gemechis T.",
           event: "goal",
-          assist: "Temu",
-        },
-        {
-          name: "Yonathan",
-          event: "goal",
-          assist: "Olana",
+          assist: "Yonathan G.",
         },
       ],
       team2: [
         {
-          name: "Emnet",
+          name: "Murad A.",
           event: "goal",
-          assist: "Nati",
-        },
-        {
-          name: "Suraphel",
-          event: "goal",
-        },
-        {
-          name: "Nati",
-          event: "goal",
-          assist: "Hawltu",
+          assist: "Biruk A.",
         },
       ],
     },
