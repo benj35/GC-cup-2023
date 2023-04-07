@@ -163,7 +163,7 @@ export const matches: Match[] = [
     },
   },
   {
-    state: "sc",
+    state: "ft",
     conference: 2,
     matchID: Math.random().toString(36).slice(2),
     teams: {
@@ -173,121 +173,56 @@ export const matches: Match[] = [
     },
     schedule: new Date("April 05, 2023 16:00").toString(),
     score: {
-      team1: 0,
-      team2: 0,
+      team1: 5,
+      team2: 2,
     },
     events: {
       team1: [
         {
-          name: "Ermisha",
+          name: "Alazar Z",
           event: "goal",
-          assist: "Kena",
+          assist: "Matias M.",
         },
         {
-          name: "Ermisha",
-          event: "ps",
+          name: "Natnael",
+          event: "goal",
+          assist: "Abraham M.",
+        },
+        {
+          name: "Fehmi",
+          event: "goal",
+        },
+        {
+          name: "Finhas",
+          event: "goal",
+          assist: "Matias M.",
+        },
+        {
+          name: "Yonas",
+          event: "goal",
+          assist: "Abdulaziz",
         },
       ],
       team2: [
         {
-          name: "Tekle",
-          event: "ps",
-        },
-        {
-          name: "Beken",
-          event: "goal",
-          assist: "Zekarias",
-        },
-        {
-          name: "Beken",
+          name: "Habtamu P.",
           event: "goal",
         },
         {
-          name: "Kevin",
+          name: "Abenezer A.",
           event: "goal",
-          assist: "Tekle",
         },
       ],
     },
   },
-  // {
-  //   state: "ft",
-  //   conference: 2,
-  //   matchID: Math.random().toString(36).slice(2),
-  //   teams: {
-  //     team1: 202,
-  //     team2: 204,
-  //   },
-  //   schedule: new Date("June 3, 2022 14:00").toString(),
-  //   score: {
-  //     team1: 6,
-  //     team2: 6,
-  //   },
-  //   events: {
-  //     team1: [
-  //       {
-  //         name: "Yeabsira",
-  //         event: "goal",
-  //         assist: "Kalo",
-  //       },
-  //       {
-  //         name: "Kalo",
-  //         event: "goal",
-  //         assist: "Josh",
-  //       },
-  //       {
-  //         name: "Roba",
-  //         event: "goal",
-  //         assist: "Teda",
-  //       },
-  //       {
-  //         name: "Roba",
-  //         event: "goal",
-  //         assist: "Yeabsira",
-  //       },
-  //       {
-  //         name: "Roba",
-  //         event: "goal",
-  //         assist: "Kalo",
-  //       },
-  //       {
-  //         name: "Josh",
-  //         event: "goal",
-  //       },
-  //     ],
-  //     team2: [
-  //       {
-  //         name: "Beken",
-  //         event: "goal",
-  //         assist: "Zekarias",
-  //       },
-  //       {
-  //         name: "Beken",
-  //         event: "goal",
-  //         assist: "Tekle",
-  //       },
-  //       {
-  //         name: "Tekle",
-  //         event: "goal",
-  //         assist: "Beken",
-  //       },
-  //       {
-  //         name: "Beken",
-  //         event: "goal",
-  //       },
-  //       {
-  //         name: "Kevin",
-  //         event: "goal",
-  //         assist: "Zekarias",
-  //       },
-  //       {
-  //         name: "Yonathan",
-  //         event: "goal",
-  //         assist: "Zekarias",
-  //       },
-  //     ],
-  //   },
-  // },
+
+
+
+
+
+
+
+
 
   /**
    * Play-offs ==============================================================================================================================================

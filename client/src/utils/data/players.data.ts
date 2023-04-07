@@ -483,7 +483,7 @@ export const players: Player[] = [
     name: "Habtamu",
     fname: "Philippos",
     position: "DF",
-    goals: 0,
+    goals: 1,
     assists: 0,
   },
   {
@@ -512,7 +512,7 @@ export const players: Player[] = [
     name: "Abenezer",
     fname: "Ayele",
     position: "MD",
-    goals: 0,
+    goals: 1,
     assists: 0,
   },
   {
@@ -663,7 +663,7 @@ export const players: Player[] = [
     fname: "Melese",
     position: "DF",
     goals: 0,
-    assists: 0,
+    assists: 2,
     isCaptain: true,
   },
   {
@@ -673,7 +673,7 @@ export const players: Player[] = [
     fname: "Mekonen",
     position: "DF",
     goals: 0,
-    assists: 0,
+    assists: 1,
   },
   {
     playerID: 69,
@@ -682,7 +682,7 @@ export const players: Player[] = [
     name: "Nathnael",
     fname: "Abebe",
     position: "DF",
-    goals: 0,
+    goals: 1,
     assists: 0,
   },
   {
@@ -691,7 +691,7 @@ export const players: Player[] = [
     name: "Yonas",
     fname: "Teshome",
     position: "DF",
-    goals: 0,
+    goals: 1,
     assists: 0,
   },
   {
@@ -718,7 +718,7 @@ export const players: Player[] = [
     name: "Finhas",
     fname: "",
     position: "MD",
-    goals: 0,
+    goals: 1,
     assists: 0,
   },
   {
@@ -727,7 +727,7 @@ export const players: Player[] = [
     name: "Fehmi",
     fname: "",
     position: "ST",
-    goals: 0,
+    goals: 1,
     assists: 0,
   },
   {
@@ -736,7 +736,7 @@ export const players: Player[] = [
     name: "Alazar",
     fname: "Zereyakob",
     position: "ST",
-    goals: 0,
+    goals: 1,
     assists: 0,
   },
   {
@@ -746,7 +746,7 @@ export const players: Player[] = [
     fname: "",
     position: "ST",
     goals: 0,
-    assists: 0,
+    assists: 1,
   },
   {
     playerID: 77,
