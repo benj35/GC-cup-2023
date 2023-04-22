@@ -106,6 +106,70 @@ export const matches: Match[] = [
     },
   },
 
+  {
+    state: "sc",
+    conference: 1,
+    matchID: Math.random().toString(36).slice(2),
+    teams: {
+      // Biomed vs Extension
+      team1: 101,
+      team2: 104,
+    },
+    schedule: new Date("April 29, 2023 16:00").toString(),
+    score: {
+      team1: 1,
+      team2: 1,
+    },
+    events: {
+      team1: [
+        {
+          name: "Gemechis T.",
+          event: "goal",
+          assist: "Yonathan G.",
+        },
+      ],
+      team2: [
+        {
+          name: "Murad A.",
+          event: "goal",
+          assist: "Biruk A.",
+        },
+      ],
+    },
+  },
+
+  // {
+  //   state: "sc",
+  //   conference: 1,
+  //   matchID: Math.random().toString(36).slice(2),
+  //   teams: {
+  //     // Electrical-B vs Software
+  //     team1: 102,
+  //     team2: 103,
+  //   },
+  //   schedule: new Date("April 04, 2023 12:00").toString(),
+  //   score: {
+  //     team1: 1,
+  //     team2: 1,
+  //   },
+  //   events: {
+  //     team1: [
+  //       {
+  //         name: "Gemechis T.",
+  //         event: "goal",
+  //         assist: "Yonathan G.",
+  //       },
+  //     ],
+  //     team2: [
+  //       {
+  //         name: "Murad A.",
+  //         event: "goal",
+  //         assist: "Biruk A.",
+  //       },
+  //     ],
+  //   },
+  // },
+
   /**
    * Conference 2 =========================================================================================================================
    */
@@ -218,7 +282,111 @@ export const matches: Match[] = [
 
 
 
+  {
+    state: "sc",
+    conference: 2,
+    matchID: Math.random().toString(36).slice(2),
+    teams: {
+      // Electrical-A vs Chemical
+      team1: 202,
+      team2: 204,
+    },
+    schedule: new Date("April 25, 2023 16:00").toString(),
+    score: {
+      team1: 6,
+      team2: 0,
+    },
+    events: {
+      team1: [
+        {
+          name: "Biruk Me.",
+          event: "goal",
+          assist: "Abenezer Yo.",
+        },
+        {
+          name: "Abenezer Yo.",
+          event: "goal",
+          assist: "Desta",
+        },
+        {
+          name: "Biruk Me.",
+          event: "goal",
+          assist: "Abenezer Yo.",
+        },
+        {
+          name: "Mikiyas Te.",
+          event: "goal",
+          assist: "Biruk Me.",
+        },
+        {
+          name: "Abenezer Yo.",
+          event: "goal",
+          assist: "Kenbon",
+        },
+        {
+          name: "Abenezer Yo.",
+          event: "goal",
+          assist: "Nathnael So.",
+        },
 
+      ],
+      team2: [
+      ],
+    },
+  },
+
+  // {
+  //   state: "sc",
+  //   conference: 2,
+  //   matchID: Math.random().toString(36).slice(2),
+  //   teams: {
+  //     // Mechanical vs Civil
+  //     team1: 203,
+  //     team2: 201,
+  //   },
+  //   schedule: new Date("April 26, 2023 16:00").toString(),
+  //   score: {
+  //     team1: 6,
+  //     team2: 0,
+  //   },
+  //   events: {
+  //     team1: [
+  //       {
+  //         name: "Biruk Me.",
+  //         event: "goal",
+  //         assist: "Abenezer Yo.",
+  //       },
+  //       {
+  //         name: "Abenezer Yo.",
+  //         event: "goal",
+  //         assist: "Desta",
+  //       },
+  //       {
+  //         name: "Biruk Me.",
+  //         event: "goal",
+  //         assist: "Abenezer Yo.",
+  //       },
+  //       {
+  //         name: "Mikiyas Te.",
+  //         event: "goal",
+  //         assist: "Biruk Me.",
+  //       },
+  //       {
+  //         name: "Abenezer Yo.",
+  //         event: "goal",
+  //         assist: "Kenbon",
+  //       },
+  //       {
+  //         name: "Abenezer Yo.",
+  //         event: "goal",
+  //         assist: "Nathnael So.",
+  //       },
+
+  //     ],
+  //     team2: [
+  //     ],
+  //   },
+  // },
 
 
 
