@@ -107,7 +107,7 @@ export const matches: Match[] = [
   },
 
   {
-    state: "sc",
+    state: "ft",
     conference: 1,
     matchID: Math.random().toString(36).slice(2),
     teams: {
@@ -115,7 +115,57 @@ export const matches: Match[] = [
       team1: 101,
       team2: 104,
     },
-    schedule: new Date("April 29, 2023 16:00").toString(),
+    schedule: new Date("April 29, 2023 15:00").toString(),
+    score: {
+      team1: 5,
+      team2: 1,
+    },
+    events: {
+      team1: [
+        {
+          name: "Moges",
+          event: "goal",
+          assist: "Iyoas",
+        },
+        {
+          name: "Bethel",
+          event: "goal",
+          assist: "Sador Y.",
+        },
+        {
+          name: "Sador Y.",
+          event: "goal",
+          assist: "Yonathan G."
+        },
+        {
+          name: "Habtamu",
+          event: "og",
+        },
+        {
+          name: "Yonathan G.",
+          event: "goal",
+          assist: "Yared",
+        },
+      ],
+      team2: [
+        {
+          name: "Zelalem",
+          event: "ps",
+        },
+      ],
+    },
+  },
+
+  {
+    state: "sc",
+    conference: 1,
+    matchID: Math.random().toString(36).slice(2),
+    teams: {
+      // Electrical-B vs Software
+      team1: 102,
+      team2: 103,
+    },
+    schedule: new Date("May 05, 2023 11:00").toString(),
     score: {
       team1: 1,
       team2: 1,
@@ -137,38 +187,6 @@ export const matches: Match[] = [
       ],
     },
   },
-
-  // {
-  //   state: "sc",
-  //   conference: 1,
-  //   matchID: Math.random().toString(36).slice(2),
-  //   teams: {
-  //     // Electrical-B vs Software
-  //     team1: 102,
-  //     team2: 103,
-  //   },
-  //   schedule: new Date("April 04, 2023 12:00").toString(),
-  //   score: {
-  //     team1: 1,
-  //     team2: 1,
-  //   },
-  //   events: {
-  //     team1: [
-  //       {
-  //         name: "Gemechis T.",
-  //         event: "goal",
-  //         assist: "Yonathan G.",
-  //       },
-  //     ],
-  //     team2: [
-  //       {
-  //         name: "Murad A.",
-  //         event: "goal",
-  //         assist: "Biruk A.",
-  //       },
-  //     ],
-  //   },
-  // },
 
   /**
    * Conference 2 =========================================================================================================================
@@ -283,7 +301,7 @@ export const matches: Match[] = [
 
 
   {
-    state: "sc",
+    state: "ft",
     conference: 2,
     matchID: Math.random().toString(36).slice(2),
     teams: {
@@ -291,102 +309,163 @@ export const matches: Match[] = [
       team1: 202,
       team2: 204,
     },
-    schedule: new Date("April 25, 2023 16:00").toString(),
+    schedule: new Date("April 25, 2023 11:00").toString(),
     score: {
-      team1: 6,
-      team2: 0,
+      team1: 3,
+      team2: 4,
     },
     events: {
       team1: [
         {
-          name: "Biruk Me.",
+          name: "Nathnael M.",
           event: "goal",
           assist: "Abenezer Yo.",
         },
         {
           name: "Abenezer Yo.",
-          event: "goal",
-          assist: "Desta",
+          event: "ps",
         },
         {
-          name: "Biruk Me.",
-          event: "goal",
-          assist: "Abenezer Yo.",
-        },
-        {
-          name: "Mikiyas Te.",
+          name: "Nathnael M.",
           event: "goal",
           assist: "Biruk Me.",
-        },
-        {
-          name: "Abenezer Yo.",
-          event: "goal",
-          assist: "Kenbon",
-        },
-        {
-          name: "Abenezer Yo.",
-          event: "goal",
-          assist: "Nathnael So.",
         },
 
       ],
       team2: [
+        {
+          name: "Amanuel T.",
+          event: "goal",
+        },
+        {
+          name: "Amanuel T.",
+          event: "goal",
+          assist: "Amanuel A.",
+        },
+        {
+          name: "Amanuel T.",
+          event: "ps",
+        },
+        {
+          name: "Yeabsira K.",
+          event: "goal",
+        },
       ],
     },
   },
 
-  // {
-  //   state: "sc",
-  //   conference: 2,
-  //   matchID: Math.random().toString(36).slice(2),
-  //   teams: {
-  //     // Mechanical vs Civil
-  //     team1: 203,
-  //     team2: 201,
-  //   },
-  //   schedule: new Date("April 26, 2023 16:00").toString(),
-  //   score: {
-  //     team1: 6,
-  //     team2: 0,
-  //   },
-  //   events: {
-  //     team1: [
-  //       {
-  //         name: "Biruk Me.",
-  //         event: "goal",
-  //         assist: "Abenezer Yo.",
-  //       },
-  //       {
-  //         name: "Abenezer Yo.",
-  //         event: "goal",
-  //         assist: "Desta",
-  //       },
-  //       {
-  //         name: "Biruk Me.",
-  //         event: "goal",
-  //         assist: "Abenezer Yo.",
-  //       },
-  //       {
-  //         name: "Mikiyas Te.",
-  //         event: "goal",
-  //         assist: "Biruk Me.",
-  //       },
-  //       {
-  //         name: "Abenezer Yo.",
-  //         event: "goal",
-  //         assist: "Kenbon",
-  //       },
-  //       {
-  //         name: "Abenezer Yo.",
-  //         event: "goal",
-  //         assist: "Nathnael So.",
-  //       },
+  {
+    state: "ft",
+    conference: 2,
+    matchID: Math.random().toString(36).slice(2),
+    teams: {
+      // Mechanical vs Civil
+      team1: 203,
+      team2: 201,
+    },
+    schedule: new Date("April 26, 2023 16:00").toString(),
+    score: {
+      team1: 3,
+      team2: 2,
+    },
+    events: {
+      team1: [
+        {
+          name: "Kidus H.",
+          event: "ps",
+        },
+        {
+          name: "Nebiyu A.",
+          event: "goal",
+        },
+        {
+          name: "Fasil B.",
+          event: "goal",
+        },
+      ],
+      team2: [
+        {
+          name: "Finihas",
+          event: "goal",
+        },
+        {
+          name: "Yonas T.",
+          event: "goal",
+          assist: "Finihas",
+        },
+      ],
+    },
+  },
 
-  //     ],
-  //     team2: [
-  //     ],
-  //   },
-  // },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
