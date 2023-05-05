@@ -18,12 +18,12 @@ export const players: Player[] = [
   {
     playerID: 1,
     teamCode: "SFT",
-    name: "Biniyam",
     nickname: "Benj",
+    name: "Biniyam",
     fname: "Abiy",
     position: "GK",
     goals: 0,
-    assists: 0,
+    assists: 2,
     isCaptain: true,
   },
   {
@@ -32,7 +32,7 @@ export const players: Player[] = [
     name: "Nahom",
     fname: "Tamru",
     position: "DF",
-    goals: 0,
+    goals: 2,
     assists: 0,
   },
   {
@@ -47,7 +47,8 @@ export const players: Player[] = [
   {
     playerID: 4,
     teamCode: "SFT",
-    name: "Best",
+    nickname: "Best",
+    name: "Abel",
     fname: "Mesele",
     position: "DF",
     goals: 0,
@@ -68,8 +69,8 @@ export const players: Player[] = [
     name: "Biruk",
     fname: "Ayalew",
     position: "DF",
-    goals: 0,
-    assists: 1,
+    goals: 1,
+    assists: 2,
   },
   {
     playerID: 7,
@@ -129,6 +130,17 @@ export const players: Player[] = [
     goals: 0,
     assists: 0,
   },
+
+  {
+    playerID: 12,
+    teamCode: "SFT",
+    name: "Alayu",
+    fname: "Estifanos",
+    position: "ST",
+    goals: 1,
+    assists: 0,
+  },
+
 
   /**
    * Biomed =========================================================================
@@ -245,7 +257,7 @@ export const players: Player[] = [
     fname: "Adissie",
     position: "DF",
     goals: 0,
-    assists: 0,
+    assists: 1,
   },
   {
     playerID: 25,
@@ -262,8 +274,8 @@ export const players: Player[] = [
     name: "Misgana",
     fname: "Abate",
     position: "DF",
-    goals: 0,
-    assists: 0,
+    goals: 1,
+    assists: 1,
   },
   {
     playerID: 27,
@@ -289,8 +301,8 @@ export const players: Player[] = [
     name: "Hiyaw",
     fname: "Amanuel",
     position: "MD",
-    goals: 0,
-    assists: 1,
+    goals: 2,
+    assists: 3,
   },
   {
     playerID: 30,
@@ -316,7 +328,7 @@ export const players: Player[] = [
     name: "Temesgen",
     fname: "Tesfaye",
     position: "MD",
-    goals: 2,
+    goals: 3,
     assists: 0,
   },
   {
